@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hava"
+            android:icon="@drawable/bulut"
+            android:title="Hava Durumu" />
+        <item
+            android:id="@+id/nav_yorumyaz"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Yorum Yaz" />
+        <item
+            android:id="@+id/nav_yorumlar"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="Yorumlar" />
+
+        <item
+            android:id="@+id/nav_puan"
+            android:icon="@android:drawable/btn_star"
+            android:title="Puan Ver " />
+    </group>
+</menu>

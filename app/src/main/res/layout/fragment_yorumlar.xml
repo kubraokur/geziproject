@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YorumlarFragment">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_yorumlar">
+
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_yorumlar"
+        android:id="@+id/recycler_yorumlar"
+        android:layout_above="@+id/bottom_relative">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_relative"
+        android:background="#fff"
+        android:padding="4dp"
+        android:layout_alignParentBottom="true">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/profilresmi_yorumlar"
+            android:src="@mipmap/ic_launcher">
+        </com.mikhaellopez.circularimageview.CircularImageView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Yorumunuzu giriniz"
+            android:layout_centerVertical="true"
+            android:id="@+id/edit_yorumlar"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toLeftOf="@+id/gonder"
+            android:background="@android:color/transparent"
+            android:layout_toRightOf="@+id/profilresmi_yorumlar"
+            >
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Gönder"
+            android:id="@+id/gonder"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/design_default_color_primary"></TextView>
+
+    </RelativeLayout>
+    
+    
+</RelativeLayout>

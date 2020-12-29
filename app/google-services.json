@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1088981466528",
+    "project_id": "geziproject-d8ede",
+    "storage_bucket": "geziproject-d8ede.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088981466528:android:40238883a0fda69fa1f8c5",
+        "android_client_info": {
+          "package_name": "com.example.geziproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088981466528-ogukpiho7vcm0tttidd0nsdenans5if8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.geziproject",
+            "certificate_hash": "aa61d6921e88cc7a738918aad747e0921cdbba50"
+          }
+        },
+        {
+          "client_id": "1088981466528-8pkjha8350r2uniqg2425nv5itvgpvr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-GdNjd2dYRJ3xe2tYlwolacs6EeNe__U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088981466528-8pkjha8350r2uniqg2425nv5itvgpvr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
